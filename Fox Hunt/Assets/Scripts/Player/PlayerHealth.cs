@@ -6,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private int currentHealth;
     [SerializeField] private Image healthBar;
+    [SerializeField] private GameObject gameOverPanel;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth <= 0)
         {
             currentHealth = 0;
+            gameOverPanel.SetActive(true);
             Destroy(gameObject);
         }
     }
