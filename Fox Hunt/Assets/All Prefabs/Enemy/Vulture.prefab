@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6355682037017524203}
   - component: {fileID: 2267756445260618216}
   - component: {fileID: 860497192061803225}
+  - component: {fileID: -4934243606231625471}
   m_Layer: 0
   m_Name: Vulture
   m_TagString: Untagged
@@ -159,6 +160,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PatrolEnemy
   speed: 1
   rb: {fileID: 2267756445260618216}
+--- !u!114 &-4934243606231625471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3696075010467367269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8654ef10a572ece4194408b07b72899e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 50
+  currentHealth: 0
 --- !u!1 &5598276923266093236
 GameObject:
   m_ObjectHideFlags: 0

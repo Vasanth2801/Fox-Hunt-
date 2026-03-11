@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 846222032226399503}
   - component: {fileID: 677389116018722389}
   - component: {fileID: 2005919890637255995}
+  - component: {fileID: -3245398151190073137}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -159,6 +160,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PatrolEnemy
   speed: 1
   rb: {fileID: 677389116018722389}
+--- !u!114 &-3245398151190073137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285625386142128622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8654ef10a572ece4194408b07b72899e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 50
+  currentHealth: 0
 --- !u!1 &8973418097982401628
 GameObject:
   m_ObjectHideFlags: 0

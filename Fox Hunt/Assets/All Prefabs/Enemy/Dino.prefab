@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4802358192433672196}
   - component: {fileID: 341350146912265599}
   - component: {fileID: 274148596044942047}
+  - component: {fileID: 1363137703333054517}
   m_Layer: 0
   m_Name: Dino
   m_TagString: Untagged
@@ -159,6 +160,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PatrolEnemy
   speed: 1
   rb: {fileID: 341350146912265599}
+--- !u!114 &1363137703333054517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366240363349316787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8654ef10a572ece4194408b07b72899e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 50
+  currentHealth: 0
 --- !u!1 &8354948258704227952
 GameObject:
   m_ObjectHideFlags: 0
