@@ -15,7 +15,7 @@ public class PatrolEnemy : MonoBehaviour
 
     void Update()
     {
-        rb.linearVelocity = new Vector2(-speed, 0);
+        rb.linearVelocity = new Vector2(speed, 0);
     }
 
     void OnTriggerExit2D(Collider2D collision)
